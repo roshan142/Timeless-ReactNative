@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ReverseClock",
+    "name": "Timeless",
     "slug": "ReverseClock",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,6 +15,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.roshan.timeless",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +24,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "08da3ddc-1b56-49ad-9d78-675ed8ffc9ab"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
