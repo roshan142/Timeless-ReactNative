@@ -4,7 +4,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 
-import quotes from './assets/json/quotes.json';
+import quotes from './assets/json/quotes2.json';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -162,7 +162,7 @@ const App = () => {
         </Text>
         <ScrollView contentContainerStyle={styles.scrollContainer}>
           <Text style={isDarkMode ? styles.darkQuoteText : styles.quoteText}>
-            {`"${currentQuote.quote}" -${currentQuote.author}`}
+            {`"${currentQuote.Quote}" -${currentQuote.Author}`}
           </Text>
         </ScrollView>
       </View>
